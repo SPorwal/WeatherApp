@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id = "winIndex">
+		<View id="vwWeather">
+			<View id="vwWeatherType">
+				<ImageView id="ivWeatherIcon"></ImageView>
+				<Label id="lblWeatherType"></Label>
+			</View>
+			
+			<Label id="lblTemperature"></Label>
+			<Label id="lblPlace"></Label>
+		</View>
+	</Window>
+</Alloy>

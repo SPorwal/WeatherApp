@@ -1,0 +1,52 @@
+"#winIndex": {
+	backgroundColor: "#000000",
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	layout: "absolute"
+},
+"#vwWeather": {
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	backgroundColor: "transparent",
+	layout: "vertical"
+},
+"#vwWeatherType": {
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.SIZE,
+	backgroundColor: "transparent",
+	layout: "horizontal"
+},
+"#ivWeatherIcon":{
+	width: 60,
+	height: 50
+},
+"#lblWeatherType":{
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.SIZE,
+	color: "#FFFFFF",
+	textAlign: "center",
+	font: {
+		fontSize: 30
+	}
+},
+"#lblTemperature": {
+	top: 20,
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.SIZE,
+	color: "#FFFFFF",
+	textAlign: "center",
+	font: {
+		fontSize: 50,
+		fontStyle: "bold"
+	}
+},
+"#lblPlace": {
+	top: 20,
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.SIZE,
+	color: "#FFFFFF",
+	textAlign: "center",
+	font: {
+		fontSize: 35
+	}
+}
